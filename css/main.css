@@ -8,15 +8,19 @@ ul,li,a{list-style: none; text-decoration: none;}
 
 #sectionone{width: 100%; height: 600px;  display: flex;
               justify-content: space-evenly; align-items: center; }
+#sectionone_div{display: flex;
+    justify-content: space-around; align-items: center; width: 1200px; height: auto;}              
 #sectionone_text{width: 500px; height: auto;  }
 #sectionone h1{color: orange; font-weight: bold; font-size: 40px;}
 #sectionone span{font-size: 20px;}
 #sectionone button{width: 120px; height: 40px; border-radius: 22px; color: white; 
                  background-color: orange; border: none; font-size: 16px; cursor: pointer;}
 #sectionone button:hover{opacity: 0.7;}                
-#sectionone_img{width: 600px; height: auto; margin-left: -18%; }
-#sectionone_img img{border-radius: 5px;}
-#img_position{position: absolute; margin-left: 1.5%; top: 135%;}
+#sectionone_img{width: 600px; height: auto;  display: flex; justify-content: space-evenly; 
+    align-items: center;}
+#sectionone_img img{border-radius: 5px; }
+#sectiononeimg_one{margin: 0;}
+#sectiononeimg_two{margin: 80px 0 0 0;}
 
 #sectiontwo{width: 100%; height: 700px; background-color: hotpink;}
 
