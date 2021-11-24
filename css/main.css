@@ -22,11 +22,30 @@ ul,li,a{list-style: none; text-decoration: none;}
 #sectiononeimg_one{margin: 0;}
 #sectiononeimg_two{margin: 80px 0 0 0;}
 
-#sectiontwo{width: 100%; height: 700px; display: flex; align-items: center; background-color: hotpink; }
-#sectiontwo_div{width: 1200px; height: 600px; background-color: palegreen; display: flex;
+#sectiontwo{width: 100%; height: 750px; display: flex; align-items: center; background-color: hotpink; }
+#sectiontwo_div{width: 1200px; height: 750px; background-color: palegreen; display: flex;
                 flex-direction: column;}
 #sectiontwo_text{width: 300px; height: auto; margin: 0; }
 #sectiontwo_text h1{color: orange; font-weight: bold; font-size: 40px; }
+
+#sectiontwo_slide{box-sizing: border-box; max-width: 1000px; position: relative; margin: auto;}
+.mySlides{display: none;}
+#sectiontwo_slide img{width: 950px; height: 600px;}
+.prev, .next { cursor: pointer; position: absolute; top: 50%; width: auto; margin-top: -22px;
+    padding: 16px; color: white; font-weight: bold; font-size: 30px; transition: 0.4s ease;
+    border-radius: 0 3px 3px 0; user-select: none;}
+.next{right: 0; border-radius: 3px 0 0 3px;}   
+.prev:hover, .next:hover{color: orange; background-color: white}
+#slide_text{color: white; font-size: 20px; padding: 8px 12px; position: absolute; top: 0;
+            font-weight: bold;}
+.dot { cursor: pointer; height: 15px; width: 15px; margin: 0 2px; background-color: white;
+    border-radius: 50%; display: inline-block; transition: background-color 0.5s ease; }
+.active, .dot:hover { background-color: orange;  }   
+.mySlides{-webkit-animation-name: fade; -webkit-animation-duration: 1.5s; animation-name: fade;
+          animation-duration: 1.5s;}
+          @-webkit-keyframes fade {from {opacity: .4} to {opacity: 1}  }
+          
+          @keyframes fade { from {opacity: .4} to {opacity: 1} }
 
 #sectionthree{width: 100%; height: 600px; background-color: khaki;}
 

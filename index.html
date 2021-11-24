@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+    <script src="js/sectiontwo_slide.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -50,14 +51,58 @@
     <div id="sectiontwo">
         <div id="sectiontwo_div">
         <div id="sectiontwo_text"> 
-            <h1>Beautiful JEJU</h1>
-            
+            <h1>Beautiful JEJU</h1><br>       
         </div>
 
+        <div id="sectiontwo_slide">
+          
+          <div class="mySlides fade">
+            <img src="img/sectiontwo_img1(성산일출봉).jpg" alt="img">
+            <div id="slide_text">성산일출봉</div>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="img/sectiontwo_img2(천지연폭포).jpg" alt="img">
+              <div id="slide_text">천지연폭포</div>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="img/sectiontwo_img3(협재).jpg" alt="img">
+              <div id="slide_text">협재해수욕장</div>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="img/sectiontwo_img4(한라산백록담).jpg" alt="img">
+              <div id="slide_text">한라산</div>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="img/sectiontwo_img5(섭지코지).jpg" alt="img">
+              <div id="slide_text">섭지코지</div>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="img/sectiontwo_img6(쇠소깍).jpg" alt="img">
+              <div id="slide_text">쇠소깍</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div><br>
+        <div style="text-align: center;">
+           <span class="dot" onclick="currentSlide(1)"></span>
+           <span class="dot" onclick="currentSlide(2)"></span>
+           <span class="dot" onclick="currentSlide(3)"></span>
+           <span class="dot" onclick="currentSlide(4)"></span>
+           <span class="dot" onclick="currentSlide(5)"></span>
+           <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+        
       </div>  
     </div>
 
-
+     
 
     <div id="sectionthree">
         123
