@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="css/main.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+    <script src="js/sectiontwo_slide.js"></script>
 </head>
 <body>
     <div id="wrap">
 
     <header>
-        <video src="video/header1.mp4" autoplay loop muted></video>
+        <video src="video/header2.mp4" autoplay loop muted></video>
         <div id="headerul">
           <ul>
               <li><a href="index.html"><img src="img/logo.png" alt="logo"></a></li>
@@ -28,22 +29,80 @@
 
 
     <div id="sectionone">
+        <div id="sectionone_div">
         <div id="sectionone_text">
       <h1>About JEJU</h1><br><br>
       <span>섬 전체가 하나의 거대한 관광자원인 제주도. 에메랄드빛 물빛이 인상적인 협재 해수욕장은
            제주 대표 여행지며, 파도가 넘보는 주상절리와 바다 위 산책로인 용머리 해안은 제주에서만 
            볼 수 있는 천혜의 자연경관으로 손꼽힌다. 드라마 촬영지로 알려진 섭지코스는 꾸준한 사랑을
-            받고 있으며 한라봉과 흑돼지, 은갈치 등은 제주를 대표하는 음식이다.</span>
-        </div>  
+            받고 있으며 한라봉과 흑돼지, 은갈치 등은 제주를 대표하는 음식이다.</span><br><br>
+            <button type="button">Read more</button>
+        </div>
+        
+        <div id="sectionone_img">
+           <img id="sectiononeimg_one" src="img/sectionone img_one.jpg" alt="img">
+           <img id="sectiononeimg_two" src="img/sectionone img_two.jpg" alt="img" >
+        </div>
+       </div> 
     </div>
 
 
 
     <div id="sectiontwo">
-        123
+        <div id="sectiontwo_div">
+        <div id="sectiontwo_text"> 
+            <h1>Beautiful JEJU</h1><br>       
+        </div>
+
+        <div id="sectiontwo_slide">
+          
+          <div class="mySlides fade">
+            <img src="img/sectiontwo_img1(성산일출봉).jpg" alt="img">
+            <div class="slide_text">성산일출봉</div>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="img/sectiontwo_img2(천지연폭포).jpg" alt="img">
+              <div class="slide_text">천지연폭포</div>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="img/sectiontwo_img3(협재).jpg" alt="img">
+              <div class="slide_text">협재해수욕장</div>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="img/sectiontwo_img4(한라산백록담).jpg" alt="img">
+              <div class="slide_text">한라산</div>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="img/sectiontwo_img5(섭지코지).jpg" alt="img">
+              <div class="slide_text">섭지코지</div>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="img/sectiontwo_img6(쇠소깍).jpg" alt="img">
+              <div class="slide_text">쇠소깍</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <div style="text-align: center;">
+           <span class="dot" onclick="currentSlide(1)"></span>
+           <span class="dot" onclick="currentSlide(2)"></span>
+           <span class="dot" onclick="currentSlide(3)"></span>
+           <span class="dot" onclick="currentSlide(4)"></span>
+           <span class="dot" onclick="currentSlide(5)"></span>
+           <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+        
+      </div>  
     </div>
 
-
+     
 
     <div id="sectionthree">
         123
