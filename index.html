@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/main.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
-    <script src="js/sectiontwo_slide.js"></script>
+    
+    
 </head>
 <body>
     <div id="wrap">
@@ -46,7 +47,7 @@
        </div> 
     </div>
 
-
+    
 
     <div id="sectiontwo">
         <div id="sectiontwo_div">
@@ -89,7 +90,7 @@
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-        </div>
+        </div><br>
         <div style="text-align: center;">
            <span class="dot" onclick="currentSlide(1)"></span>
            <span class="dot" onclick="currentSlide(2)"></span>
@@ -101,11 +102,87 @@
         
       </div>  
     </div>
+ 
+         <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2500);
+        }
 
+        
+    </script>   
+
+    <script>
+        var slideIndex = 1;
+        showSlidestwo(slideIndex);
+
+        function plusSlides(n) {
+        showSlidestwo(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlidestwo(slideIndex = n);
+        }
+
+        function showSlidestwo(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
      
 
     <div id="sectionthree">
-        123
+        <div id="sectionthree_div">
+        <div id="sectionthree_text">
+           <br><br> <h1>Enjoy JEJU</h1>
+        </div>
+        <br><br><br>
+        <div id="sectionthree_button">
+           <ul>
+              <li id="btn1"><span>세계자동차&피아노 박물관</span></li> 
+              <li id="btn1"><span>제주해녀박물관</span></li>
+              <li id="btn1"><span>오설록 티 뮤지엄</span></li>
+              <li id="btn1"><span>피규어뮤지엄 제주</span></li>
+              <li id="btn1"><span>브릭캠퍼스 제주</span></li>
+              <li id="btn1"><span>빛의 벙커</span></li>
+              <li id="btn1"><span>감귤체험</span></li>
+              <li id="btn1"><span>승마체험</span></li>
+           </ul>
+
+           <div id="sectionthree_imgbox">
+             <div id="box1">
+                 
+             </div>
+           </div>
+        </div>
+
+    </div>
     </div>
 
 
