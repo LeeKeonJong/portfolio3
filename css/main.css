@@ -61,7 +61,8 @@ ul,li,a{list-style: none; text-decoration: none;}
                            cursor: pointer;  background-color: palevioletred;}
 #sectionthree_button ul li:hover{background-color: lightgray;}
 #sectionthree_imgbox{width: 700px; height: 635px;background-color: yellowgreen;}
-
+#box1{width: 700px; height: 460px; display: flex; flex-wrap: wrap; background-color: aqua; }
+#sectionthree_imgbox img{width: 320px; height: 220px; border-radius: 5px;}
 
 
 
