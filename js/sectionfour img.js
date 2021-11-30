@@ -11,6 +11,9 @@ $(function(){
 		  index=0;
 	  }
 	}
-  setInterval(slide,1000);
+  setInterval(slide,1500);
+
+  
+  
 
 });
