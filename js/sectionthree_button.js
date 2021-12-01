@@ -49,6 +49,14 @@ $(function(){
             $("#sectionthree_imgbox4").hide();
             $("#sectionthree_imgbox5").hide();
            });
+           $('.dot2').click(function(){
+            $("#sectionfour_slide1").fadeIn();
+            $("#none").hide();
+            });
+            $('.dot3').click(function(){
+                $("#none").fadeIn();
+                $("#sectionfour_slide1").hide();
+                });
         });    
 
 
