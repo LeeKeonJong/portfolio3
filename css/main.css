@@ -151,7 +151,7 @@ ul,li,a{list-style: none; text-decoration: none;}
     .dot2:hover,.dot3:hover{background-color: orange;}
 }
 
-@media (min-width:768px) {
+@media (min-width:600px) {
     #topbtn {display: none; position: fixed; bottom: 20px; right: 50px; z-index: 1; 
         border: none; background-color: orange; color: white; cursor: pointer; 
         border-radius: 50px; font-size: 18px; transition: 0.2s ease-in-out;
@@ -161,16 +161,16 @@ ul,li,a{list-style: none; text-decoration: none;}
     #sectionone{width: 100%; height: 600px;  display: flex;
                   align-items: center; }
     #sectionone_div{display: flex;
-        justify-content: space-around; align-items: center; width: 100%; height: auto;}              
-    #sectionone_text{width: 500px; height: auto;  }
-    #sectionone h1{color: orange; font-weight: bold; font-size: 40px;}
-    #sectionone span{font-size: 1em;}
+        justify-content: space-evenly; align-items: center; width: 100%; height: auto;}              
+    #sectionone_text{width: 36%; height: auto;  }
+    #sectionone h1{color: orange; font-weight: bold; font-size: 40px; }
+    #sectionone span{font-size: 1rem;}
     #sectionone button{width: 120px; height: 40px; border-radius: 22px; color: white; 
                      background-color: orange; border: none; font-size: 16px; cursor: pointer;}
     #sectionone button:hover{opacity: 0.7;}                
-    #sectionone_img{width: 80%; height: auto;  display: flex; justify-content: space-evenly; 
-        align-items: center;}
-    #sectionone_img img{border-radius: 5px; }
+    #sectionone_img{width: 50%; height: auto;  display: flex; justify-content: space-evenly; 
+        align-items: center; }
+    #sectionone_img img{border-radius: 5px; width: 40%; height: auto;}
     #sectiononeimg_one{margin: 0;}
     #sectiononeimg_two{margin: 80px 0 0 0;}
     
@@ -181,7 +181,7 @@ ul,li,a{list-style: none; text-decoration: none;}
     #sectiontwo_text h1{color: orange; font-weight: bold; font-size: 45px; }
     
     #sectiontwo_slide{box-sizing: border-box; max-width: 1200px; position: relative; margin: auto;}
-    .mySlides{display: none;}
+    .mySlides{display: none; width: 100%;}
     #sectiontwo_slide img{width: 100%; height: 700px; border-radius: 5px;}
     .prev, .next { cursor: pointer; position: absolute; top: 50%; width: auto; margin-top: -22px;
         padding: 16px; color: white; font-weight: bold; font-size: 30px; transition: 0.4s ease;
@@ -295,7 +295,7 @@ ul,li,a{list-style: none; text-decoration: none;}
     .dot2:hover,.dot3:hover{background-color: orange;}
 }
 
-@media (min-width:1024px) {
+@media (min-width:1200px) {
     #topbtn {display: none; position: fixed; bottom: 20px; right: 50px; z-index: 1; 
         border: none; background-color: orange; color: white; cursor: pointer; 
         border-radius: 50px; font-size: 18px; transition: 0.2s ease-in-out;
