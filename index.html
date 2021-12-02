@@ -36,7 +36,27 @@
           </ul>
         </div>
     </header>
+    
+    <button onclick="topFunction()" id="topbtn" >Top</button>
 
+    <script>
+       
+    mybutton = document.getElementById("topbtn");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+    }
+    }
+    function topFunction() {
+     document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
+    }
+    </script>
 
     <div id="sectionone">
         <div id="sectionone_div">
@@ -130,7 +150,7 @@
         }
         slides[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 2500);
+        setTimeout(showSlides, 3000);
         }
 
         
