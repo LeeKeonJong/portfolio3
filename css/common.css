@@ -3,20 +3,29 @@
 
 
 @media (max-width:599px) {
-       header{width: 100%; height: auto; }
-       header video{width: 100%; height: auto;}
-       #headerul{position: absolute;left: 3%; top: 1%;}
-       #headerul ul{display: flex; justify-content: space-around; align-items: center; width: 600px;}
-       #headerul li a{font-size: 30px; color: white; font-weight: bold; }
+       header{width: 100%; height: auto;  }
+       header video{width: 100%; height: auto; display: inline-block;}
+       #headerul{position: absolute;left: 3%; top: 0%; display: none;}
+       #headerul ul{display: flex; justify-content: space-around; align-items: center;
+               width: 600px; z-index: 1;}
+       #headerul li a{font-size: 30px; color: white; font-weight: bold; display: block;
+                      padding: 15px; background-color: blanchedalmond ;}
        #headerul a:hover{color: orange;}
+       #logo_menu{display: flex; justify-content: space-between; align-items: center; width: 100%; line-height: 30px;
+                    position: absolute; z-index: 1;}
+       #logo_div{width: 90%;}
+       #menu_div{width: 15%; }             
+       #logo{width: 100px;height: 80px; cursor: pointer; background-color: aquamarine;}
+       .menu{width: 50px; height: 50px;  cursor: pointer; background-color: bisque;}
+       
        
        footer{width: 100%; height: 70px; background-color: lightgray;}
        #realfooter{display: flex; justify-content: space-between; 
-              align-items: center; width: 100%;}
+              align-items: center; width: 95%;}
        footer span{width: 50%; height: auto; font-size: 75%;}       
        #footerul{ width: 80%; height: 70px;}
        #footerul #a{display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; width: 80%; height: 70px;}
-       #footerul ul li{width: 100%; height: auto;}
+       #footerul ul li{width: 100%; height: auto; text-align: center;}
        #footerul li a{font-size: 1em; color: white; font-weight: bold;}
        #footerul a:hover{color: orange;}
 }
@@ -26,33 +35,39 @@
        header{width: 100%; height: auto; }
        header video{width: 100%; height: auto;}
        #headerul{position: absolute;left: 3%; top: 1%;}
-       #headerul ul{display: flex; justify-content: space-around; align-items: center; width: 600px;}
-       #headerul li a{font-size: 30px; color: white; font-weight: bold; }
+       #headerul ul{display: flex; justify-content: space-around; align-items: center; width: 100%;}
+       #headerul img{width: 90%; height: 90%;}
+       #headerul ul li{width: 100px; text-align: center;}
+       #headerul li a{font-size: 25px; color: white; font-weight: bold;}
        #headerul a:hover{color: orange;}
+       #logo_menu{display: none;}
        
        footer{width: 100%; height: 70px; background-color: lightgray;}
        #realfooter{display: flex; justify-content: space-between; 
-              align-items: center; width: 100%;}
+              align-items: center; width: 95%;}
        footer span{width: 50%; height: auto; font-size: 75%;}       
        #footerul{ width: 80%; height: 70px;}
        #footerul #a{display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; width: 80%; height: 70px;}
-       #footerul ul li{width: 100%; height: auto;}
+       #footerul ul li{width: 100%; height: auto; text-align: center;}
        #footerul li a{font-size: 1em; color: white; font-weight: bold;}
        #footerul a:hover{color: orange;}
 }
 
 
-@media (min-width:1300px) {
+@media (min-width:1200px) {
        header{width: 100%; height: auto; }
        header video{width: 100%; height: auto;}
-       #headerul{position: absolute;left: 3%; top: 1%;}
+       #headerul{position: absolute;left: 5%; top: 3%;}
        #headerul ul{display: flex; justify-content: space-around; align-items: center; width: 600px;}
+       #headerul img{width: 100%; height: 100%;}
+       #headerul ul li{width: 100px; text-align: center;}
        #headerul li a{font-size: 30px; color: white; font-weight: bold; }
        #headerul a:hover{color: orange;}
+       #logo_menu{display: none;}
        
        footer{width: 100%; height: 70px; background-color: lightgray;}
        #realfooter{display: flex; justify-content: space-between; 
-              align-items: center; width: 1300px;}
+              align-items: center; width: 100%;}
        footer span{width: 470px; height: auto; font-size: 100%;}       
        #footerul{ width: 600px; height: 70px;}
        #footerul #a{display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; width: 600px; height: 70px;}
