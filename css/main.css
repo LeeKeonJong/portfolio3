@@ -14,7 +14,7 @@ ul,li,a{list-style: none; text-decoration: none;}
     #sectionone{width: 100%; height: 600px;  display: flex;
                   align-items: center; }
     #sectionone_div{display: flex;
-        justify-content: space-evenly; align-items: center; width: 95%; height: auto;}              
+        justify-content: space-evenly; align-items: center; width: 90%; height: auto;}              
     #sectionone_text{width: 40%; height: auto;  }
     #sectionone h1{color: orange; font-weight: bold; font-size: 40px; width: 300px; margin: 0;}
     #sectionone span{font-size: 80%;}
@@ -54,9 +54,9 @@ ul,li,a{list-style: none; text-decoration: none;}
               @keyframes fade { from {opacity: .4} to {opacity: 1} }
               
     
-    #sectionthree{width: 100%; height: 950px; }
+    #sectionthree{width: 100%; height: auto; }
     #sectionthree #none_599{display: none;}
-    #sectionthree_div{width: 95%; height: 900px; display: flex; flex-direction: column;
+    #sectionthree_div{width: 90%; height: auto; display: flex; flex-direction: column;
                       }
     #sectionthree_text{margin: 0;}
     #sectionthree_text h1{color: orange; font-weight: bold; font-size: 45px;} 
@@ -125,25 +125,25 @@ ul,li,a{list-style: none; text-decoration: none;}
     #infobox6 table tr,th,td{border: 2px solid lightgray; font-size: 94%;}
     #infobox6 b{color: white; font-weight: normal;}
     
-    #sectionfour{width: 100%; height: 600px; }
-    #sectionfour_div{width: 95%; height: 600px; display: flex;
+    #sectionfour{width: 100%; height: auto; }
+    #sectionfour_div{width: 90%; height: auto; display: flex;
         flex-direction: column; }
     #sectionfour_text{width: 300px; height: auto;   margin: 0;}
     #sectionfour_text h1{color: orange; font-weight: bold; font-size: 45px; }
     #sectionfour_slide1{width: 100%; height: auto; display: flex; justify-content: space-evenly;
-                        align-items: center;  }
-    #sectionfour_slide1 div{width: 90%; height: 400px; display: flex; flex-direction: column; }
-    #sectionfour_slide1 div img{width: 90%; height: 300px; border-radius: 5px; border: 1px solid orange;}
+                        align-items: center; flex-wrap: wrap; }
+    #sectionfour_slide1 div{width: 50%; height: 350px; display: flex; flex-direction: column; }
+    #sectionfour_slide1 div img{width: 95%; height: 250px; border-radius: 5px; border: 1px solid orange;}
     #sectionfour_slide1 div b{font-size: 1em; font-weight: bold;}
-    #sectionfour_slide1 div span{font-size: 80%; width: 90%; text-align: center;}
+    #sectionfour_slide1 div span{font-size: 75%; width: 95%; text-align: center;}
     #none{display: none; width: 100%; height: auto;}
     #sectionfour_slide2{width: 100%; height: auto; display: flex; justify-content: space-evenly;
-        align-items: center;  }
-    #sectionfour_slide2 div{width: 90%; height: 400px; display: flex; flex-direction: column; }
-    #sectionfour_slide2 div img{width: 90%; height: 300px; border-radius: 5px; border: 1px solid orange;}
+        align-items: center; flex-wrap: wrap; }
+    #sectionfour_slide2 div{width: 50%; height: 350px; display: flex; flex-direction: column; }
+    #sectionfour_slide2 div img{width: 95%; height: 250px; border-radius: 5px; border: 1px solid orange;}
     #sectionfour_slide2 div b{font-size: 1em; font-weight: bold;}
-    #sectionfour_slide2 div span{font-size: 80%;}
-    .dot2,.dot3{ cursor: pointer; height: 15px; width: 15px; margin: 0 2px; background-color: white;
+    #sectionfour_slide2 div span{font-size: 75%; width: 95%; text-align: center;}
+    .dot2,.dot3{ cursor: pointer; height: 15px; width: 15px; margin: 0 3px; background-color: white;
         border-radius: 50%; display: inline-block; transition: 0.2s ease;
          border: 3px solid orange;}
     .dot2:hover,.dot3:hover{background-color: orange;}
@@ -198,18 +198,18 @@ ul,li,a{list-style: none; text-decoration: none;}
               @keyframes fade { from {opacity: .4} to {opacity: 1} }
               
     
-    #sectionthree{width: 100%; height: 950px; }
-    #sectionthree_div{width: 95%; height: 900px; display: flex; flex-direction: column;
+    #sectionthree{width: 100%; height: auto; }
+    #sectionthree_div{width: 95%; height: auto; display: flex; flex-direction: column;
                       }
     #sectionthree_text{margin: 0;}
     #sectionthree_text h1{color: orange; font-weight: bold; font-size: 45px;} 
     #sectionthree_button{display: flex; justify-content: space-evenly; width: 100%; height: auto; }                 
     #sectionthree_button ul{width: 50%; height: auto; display: flex; flex-direction: column;
                             justify-content: space-evenly;}
-    #sectionthree_button ul li{margin: 0; width: 60%; height: 50px; font-size: 1.5em; font-weight: bold; 
-                               cursor: pointer; }
-    #sectionthree_button ul li:hover{text-decoration: underline orange;  }
-    #sectionthree_button ul li:active{text-decoration: underline orange;}
+    #sectionthree_button ul li{margin: 0; width: 100%; height: 50px; font-size: 1.5em; font-weight: bold;}
+    #sectionthree_button ul li span{width: 100%; cursor: pointer;}
+    #sectionthree_button ul li span:hover{text-decoration: underline orange;  }
+    #sectionthree_button ul li span:active{text-decoration: underline orange;}
     #sectionthree_imgbox{width: 50%; height: 735px;}
     #box1{width: 100%; height: 460px; display: flex; flex-wrap: wrap; justify-content: space-evenly;}
     #sectionthree_imgbox img{width: 48%; height: 220px; border-radius: 5px; }
