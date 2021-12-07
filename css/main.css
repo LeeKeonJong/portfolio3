@@ -24,6 +24,7 @@ ul,li,a{list-style: none; text-decoration: none;}
     #sectionone_img{min-width: 50%; height: auto;  display: flex; justify-content: space-evenly; 
         align-items: center; flex-direction: column;}
     #sectionone_img img{border-radius: 5px; width: 50%; height: auto;}
+    #sectionone_img img:hover{transform: scale(1.4); transition: 0.2s ease-in-out;}
     #sectiononeimg_one{margin-top: 90px;}
     #sectiononeimg_two{margin: 10px 0 0 50px;}
     
