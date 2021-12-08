@@ -8,6 +8,10 @@
 #left_one{width: 840px; height: auto; display: flex; flex-direction: column; justify-content: space-evenly; background-color: chartreuse;}
 #title_one{width: 230px; height: auto; margin: 0; background-color: cornsilk;}
 #title_one h1{font-weight: bold; color: orange;}
+#imgbox_one{width: 840px; height: 400px; display: flex; justify-content: space-evenly; flex-direction: row; }
+#imgbox_one #half_width{width: 415px; height: 390px; border-radius: 5px;}
+#imgbox_1-2{width: 415px; height: 400px; display: flex; justify-content: space-evenly; flex-wrap: wrap;}
+#imgbox_1-2 img{width: 200px; height: 190px; border-radius: 5px;}
 
 
 

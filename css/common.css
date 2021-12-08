@@ -64,7 +64,7 @@ ul,li,a{list-style: none; text-decoration: none;}
        header{width: 100%; height: auto; }
        header video{width: 100%; height: auto;}
        #sub_header{width: 100%; height: auto;}
-       #sub_headerimg{width:100%; height: 100%; display: inline-block;}
+       #sub_headerimg{width:100%; height: 400px; display: inline-block;}
        #headerul{position: absolute;left: 5%; top: 3%;}
        #headerul ul{display: flex; justify-content: space-around; align-items: center; width: 600px;}
        #headerul img{width: 100%; height: 100%;}
