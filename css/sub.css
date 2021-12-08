@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+#sub_start{width: 1200px; height: auto; display: flex; flex-direction: row; align-items: center; justify-content: space-evenly; 
+            background-color: burlywood;}
+
+#section_left{width: 840px; height: auto; display: flex; flex-direction: column; align-items: center;
+	          justify-content: space-around; background-color: aqua; }
+#left_one{width: 840px; height: auto; display: flex; flex-direction: column; justify-content: space-evenly; background-color: chartreuse;}
+#title_one{width: 230px; height: auto; margin: 0; background-color: cornsilk;}
+#title_one h1{font-weight: bold; color: orange;}
+
+
+
+
+#section_right{width: 300px; height: auto; background-color: cadetblue;}			
