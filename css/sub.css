@@ -5,14 +5,53 @@
 
 #section_left{width: 840px; height: auto; display: flex; flex-direction: column; align-items: center;
 	          justify-content: space-around; background-color: aqua; }
-#left_one{width: 840px; height: auto; display: flex; flex-direction: column; justify-content: space-evenly; background-color: chartreuse;}
-#title_one{width: 230px; height: auto; margin: 0; background-color: cornsilk;}
+#left_one{width: 840px; height: 600px; display: flex; flex-direction: column; justify-content: space-evenly;}
+#title_one{width: 230px; height: auto; margin: 0;}
 #title_one h1{font-weight: bold; color: orange;}
 #imgbox_one{width: 840px; height: 400px; display: flex; justify-content: space-evenly; flex-direction: row; }
 #imgbox_one #half_width{width: 415px; height: 390px; border-radius: 5px;}
 #imgbox_1-2{width: 415px; height: 400px; display: flex; justify-content: space-evenly; flex-wrap: wrap;}
 #imgbox_1-2 img{width: 200px; height: 190px; border-radius: 5px;}
+#one_overflowhidden1{width: 415px; height: 390px; overflow: hidden; border-radius: 5px;}
+#one_overflowhidden2{width: 200px; height: 190px; overflow: hidden; border-radius: 5px;}
+#imgbox_one img:hover{transform: scale(1.2); transition: 0.5s ease-in-out; cursor: pointer;} 
+#text_one{width: 820px; height: auto;}
+#text_one span{font-size: 15px;}
+#text_one button{width: 80px; height: 30px; border-radius: 15px; border: hidden; background-color: orange;
+                 color: white; font-weight: bold; cursor: pointer;}
+#text_one button:hover{transition: 0.2s ease-in-out; background-color: skyblue; opacity: 0.9;}
 
+#left_two{width: 840px; height: auto; display: flex; flex-direction: column; justify-content: space-evenly;}
+#title_two{width: 100%; height: auto; margin: 0;}
+#title_two h1{font-weight: bold; color: orange;}
+#toggle_box{width: 840px; height: auto; display: flex; flex-direction: column; 
+            justify-content: space-evenly; }
+#toggle_one{width: 840px; height: auto; display: flex; flex-direction: column; justify-content: space-evenly; }            
+#toggle_one #toggle_btn1{margin: 0; width: 400px; height: 50px; background: none;
+                   border: 3px solid orange; border-radius: 15px; font-size: 25px; cursor: pointer;}
+#toggle_box1{width: 840px; height: auto; display: none;}                   
+#toggle_one #toggle_imgbox1{width: 840px;height: 250px; display: flex; justify-content: space-evenly; 
+                        align-items: center; flex-direction: row;}         
+#toggle_one #toggle_imgbox1 img{width: 415px; height: 250px; border-radius: 5px;}
+#toggle_one #toggle_textbox1{width: 820px; height: 110px; margin-top: 10px;}
+
+#toggle_two{width: 840px; height: auto; display: flex; flex-direction: column; justify-content: space-evenly; }            
+#toggle_two #toggle_btn2{margin: 0; width: 400px; height: 50px; background: none;
+                   border: 3px solid orange; border-radius: 15px; font-size: 25px; cursor: pointer;}
+#toggle_box2{width: 840px; height: auto; display: none;}                   
+#toggle_two #toggle_imgbox2{width: 840px;height: 250px; display: flex; justify-content: space-evenly; 
+                        align-items: center; flex-direction: row;}         
+#toggle_two #toggle_imgbox2 img{width: 415px; height: 250px; border-radius: 5px;}
+#toggle_two #toggle_textbox2{width: 820px; height: 170px; margin-top: 10px; }
+
+#toggle_three{width: 840px; height: auto; display: flex; flex-direction: column; justify-content: space-evenly; }            
+#toggle_three #toggle_btn3{margin: 0; width: 400px; height: 50px; background: none;
+                   border: 3px solid orange; border-radius: 15px; font-size: 25px; cursor: pointer;}
+#toggle_box3{width: 840px; height: auto; display: none;}                   
+#toggle_three #toggle_imgbox3{width: 840px;height: 250px; display: flex; justify-content: space-evenly; 
+                        align-items: center; flex-direction: row;}         
+#toggle_three #toggle_imgbox3 img{width: 415px; height: 250px; border-radius: 5px;}
+#toggle_three #toggle_textbox3{width: 820px; height: 150px; margin-top: 10px; }
 
 
 
