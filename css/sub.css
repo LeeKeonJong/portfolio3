@@ -51,7 +51,8 @@
 #toggle_three #toggle_imgbox3{width: 840px;height: 250px; display: flex; justify-content: space-evenly; 
                         align-items: center; flex-direction: row;}         
 #toggle_three #toggle_imgbox3 img{width: 415px; height: 250px; border-radius: 5px;}
-#toggle_three #toggle_textbox3{width: 820px; height: 150px; margin-top: 10px; }
+#toggle_three #toggle_textbox3{width: 820px; height: 150px; margin-top: 10px;}
+#left_two button:hover{transform: scale(1.1); transition: 0.2s ease-in-out; opacity: 0.9;}
 
 
 
