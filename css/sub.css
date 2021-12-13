@@ -75,9 +75,8 @@
 
 #section_right{width: 300px; height: 1000px; background-color: cadetblue;}
 
-#right_one{width: 230px; height: 40px; margin: 0; display: flex; flex-direction: row; background-color: palegreen;}
+#right_one{width: 240px; height: 45px; margin: 0; display: flex; flex-direction: row; }
 #right_one input{width: 200px; height: 40px; border: 3px double orange; font-size: 20px;} 
-#right_one button{width: 30px; height: 40px; background-color:unset;}
-#right_one button img{width: 30px; height: 40px;}
+#right_one #search{width: 30px; height: 40px; border: 3px double orange;}
 
 
