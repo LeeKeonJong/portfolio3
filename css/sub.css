@@ -102,7 +102,7 @@
 
 #right_four{width: 300px; height: 370px; display: flex; flex-direction: column; 
              justify-content: space-evenly; }
-#title_seven{width: 150px; height: 35px; margin: 0; }
+#title_seven{width: 200px; height: 35px; margin: 0; }
 #title_seven h2{font-weight: bolder; color: orange;}
 #map{width: 300px; height: 280px;}
 #map button{border: none;}
