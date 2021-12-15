@@ -39,6 +39,8 @@ ul,li,a{list-style: none; text-decoration: none;}
 @media (min-width:600px) {
        header{width: 100%; height: auto; }
        header video{width: 100%; height: auto;}
+       #sub_header{width: 100%; height: auto;}
+       #sub_headerimg{width:100%; height: 400px; display: inline-block;}
        #headerul{position: absolute;left: 3%; top: 1%;}
        #headerul ul{display: flex; justify-content: space-around; align-items: center; width: 100%;}
        #headerul img{width: 90%; height: 90%;}
