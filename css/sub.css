@@ -66,7 +66,7 @@
         #three_box #three_imgbox{width: 95%; height: 95%; display: flex; justify-content: space-evenly; align-items: center;}
         #three_box #three_imgbox div{width: 32%; height: 100%; overflow: hidden; border-radius: 5px; border: 1px solid orange;}
         #three_box #three_imgbox div img{width: 100%; height: 100%; cursor: pointer; border-radius: 5px;}
-        #three_box #three_textbox{width: 94%; height: 47%; font-size: 90%;}
+        #three_box #three_textbox{width: 94%; height: auto; font-size: 90%;}
         #three_box #three_imgbox div img:hover{transform: scale(1.2); transition: 0.5s ease-in-out;}
         
         #left_four{width: 95%; height: auto; display: flex; flex-direction: column; 
@@ -81,14 +81,14 @@
                        display: flex; flex-direction: column; justify-content: space-evenly;}
         
         #right_one{width: 90%; height: 45px; margin: 0; display: flex; flex-direction: row; }
-        #right_one input{width: 90%; height: 40px; border: 3px double orange; border-right: 1px solid orange; font-size: 20px;} 
-        #search_box{width: 10%; height: 40px; border: 3px double orange; border-left: none; cursor: pointer;}
+        #right_one input{width: 85%; height: 40px; border: 3px double orange; border-right: 1px solid orange; font-size: 20px;} 
+        #search_box{width: 15%; height: 40px; border: 3px double orange; border-left: none; cursor: pointer;}
         #right_one #search{width: 30px; height: 40px; }
         #right_one #search:hover{transition: 0.2s ease-in-out; background-color: #f2f2f2; }
         
         #right_two{ width: 90%; height: 150px; display: flex; flex-direction: column; justify-content: space-evenly;}
-        #title_five{width: 90%; height: 35px; margin: 0; }
-        #title_five h2{font-weight: bolder; color: orange;}
+        #title_five{width: 90%; height: 35px; margin-left: 2%; }
+        #title_five h2{font-weight: bolder; color: orange; font-size: 100%;}
         #tags{width: 90%; height: 80px; display: flex; flex-wrap: wrap; justify-content: space-evenly; 
                 align-items: center; margin: 0; }
         #tags button{width: 32%; height: 30px; background-color: white; border: 1px solid orange; border-radius: 15px; font-size: 50%;}
@@ -98,8 +98,8 @@
         
         #right_three{width: 90%; height: 220px; display: flex; flex-direction: column; 
                      justify-content: space-evenly; }
-        #title_six{width: 90%; height: 35px; margin: 0; }
-        #title_six h2{font-weight: bolder; color: orange;}
+        #title_six{width: 90%; height: 35px; margin-left: 2%; }
+        #title_six h2{font-weight: bolder; color: orange; font-size: 100%;}
         #category_box{width: 90%; height: 150px; display: flex; flex-direction: column; align-items: center;}
         #category_box span{font-size: 18px; width: 300px; height: 35px; border-bottom:1px solid orange ;}
         #category_box span b{font-size: 15px; font-weight: normal;}
@@ -107,11 +107,12 @@
         
         #right_four{width: 90%; height: auto; display: flex; flex-direction: column; 
                      justify-content: space-evenly; }
-        #title_seven{width: 90%; height: 35px; margin: 0; }
-        #title_seven h2{font-weight: bolder; color: orange;}
+        #title_seven{width: 90%; height: 35px; margin-left: 2%; }
+        #title_seven h2{font-weight: bolder; color: orange; font-size: 100%;}
         #map{width: 90%; height: auto;}
         #map button{border: none;}
         #map img{width: 100%; height: auto; cursor: pointer;}
+
         #box{display: none; position: fixed; top: 10%; left: 20%; width: 70%; height: 70%; text-align: center;background-color: gray; }
         #box #cbtn{width: 100%; height: 100%;}
         #box #cbtn:hover{transition: 0.2s ease-in-out; opacity: 0.5; cursor: pointer;}
