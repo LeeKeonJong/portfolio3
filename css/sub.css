@@ -20,7 +20,7 @@
         #text_one span{font-size: 1em;}
         #btnbox_leftone{width: 100%; height: auto; display: flex; flex-wrap: wrap; justify-content: space-evenly;}
         #text_one button{width: 18%; min-height: 30px; border-radius: 15px; border: hidden; border: 1px solid orange;
-                         color: black; background-color: white; font-weight: bold; cursor: pointer; font-size: 90%;}
+                         color: black; background-color: white; font-weight: bold; cursor: pointer; font-size: 70%;}
         #text_one button:hover{transition: 0.2s ease-in-out; background-color: orange; opacity: 0.9;}
         
         #left_two{width: 95%; height: auto; display: flex; flex-direction: column; justify-content: space-evenly;}
@@ -71,7 +71,7 @@
                    justify-content: space-evenly;}
         #title_four{width: 95%; height: 90%; margin-left: 2%;}
         #title_four h1{font-weight: bolder; color: orange;}
-        #video_box{width: 95%; height: 100%; }
+        #video_box{width: 95%; height: 100%; border-radius: 10px;}
         #video_box video{width: 100%; height: auto; border-radius: 10px;}
         
         
