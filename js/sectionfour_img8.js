@@ -3,7 +3,7 @@ var img8_array=["img/sectionfour_8-1-2.jpg","img/sectionfour_8-1-3.jpg","img/sec
 	var index8=0;
   
 	function slide(){
-		document['ssambob'].src=img8_array[index8];
+		document.getElementById("ssambob").src=img8_array[index8];
 		index8++;
 		if(index8>=img8_array.length){
 			index8=0;

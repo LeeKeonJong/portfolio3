@@ -5,7 +5,7 @@ $(function(){
   var index=0;
 
   function slide(){
-	  document['dongga'].src=img_array[index];
+	  document.getElementById("dongga").src=img_array[index];
 	  index++;
 	  if(index>=img_array.length){
 		  index=0;

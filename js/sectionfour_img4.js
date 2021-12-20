@@ -5,7 +5,7 @@ $(function(){
 	var index4=0;
   
 	function slide(){
-		document['garchi'].src=img4_array[index4];
+		document.getElementById("garchi").src=img4_array[index4];
 		index4++;
 		if(index4>=img4_array.length){
 			index4=0;

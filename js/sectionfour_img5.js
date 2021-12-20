@@ -3,7 +3,7 @@ var img5_array=["img/sectionfour_5-1-2.jpg","img/sectionfour_5-1-3.jpg","img/sec
 	var index5=0;
   
 	function slide(){
-		document['lobster'].src=img5_array[index5];
+		document.getElementById("lobster").src=img5_array[index5];
 		index5++;
 		if(index5>=img5_array.length){
 			index5=0;

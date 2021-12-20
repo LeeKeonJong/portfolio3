@@ -5,7 +5,7 @@ $(function(){
 	var index3=0;
   
 	function slide(){
-		document['okman'].src=img3_array[index3];
+		document.getElementById("okman").src=img3_array[index3];
 		index3++;
 		if(index3>=img3_array.length){
 			index3=0;

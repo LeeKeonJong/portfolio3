@@ -21,7 +21,7 @@ ul,li,a{list-style: none; text-decoration: none;}
        #menu_div{width: 10%; }             
        #logo{width: 90px;height: 80px; cursor: pointer; opacity: 1;}
        #menu{width: 30px; height: 30px;  cursor: pointer; opacity: 1;}
-       #logo_main{display: none;}
+       .logo_main{display: none;}
        
        
        footer{width: 100%; height: auto; background-color: lightgray; margin-top: 20px;}

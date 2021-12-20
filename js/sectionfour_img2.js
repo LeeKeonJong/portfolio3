@@ -5,7 +5,7 @@ $(function(){
 	var index2=0;
   
 	function slide(){
-		document['blackpig'].src=img2_array[index2];
+		document.getElementById("blackpig").src=img2_array[index2];
 		index2++;
 		if(index2>=img2_array.length){
 			index2=0;
